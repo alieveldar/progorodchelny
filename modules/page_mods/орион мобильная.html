@@ -1,0 +1,41 @@
+<!--В head сайта один раз подключите библиотеку-->
+<script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://oriondigital.ru/ad/adorion.js?574856"></script>
+
+<!--AdFox START-->
+<!--Orion_sites-->
+<!--Площадка: prokazan.ru / * / *-->
+<!--Тип баннера: 300x250js-->
+<!--Расположение: <верх страницы>-->
+<script type="text/javascript">
+(function loadExtData(w) {
+  w.adv = new Adv();
+})(window);
+</script>
+  <div id="adfox_149699505329239829"></div>
+  <script type="text/javascript">
+adv.banner(function(webmd) {
+    console.log("Showing banner 1", webmd);
+           var wmclusters = webmd["clusters"].toString();
+           var audiences =  webmd["audiences"].toString();
+           wmclusters = wmclusters.replace(/,/g,':');
+           audiences = audiences.replace(/,/g,':');
+    window.Ya.adfoxCode.create({
+        ownerId: 251657,
+        containerId: 'adfox_149699505329239829',
+        params: {
+            pp: 'g',
+            ps: 'cjof',
+            p2: 'frcw',
+            puid1: webmd['socio_demographics']['age'],
+            puid2: webmd['socio_demographics']['gender'],
+            puid3: webmd['socio_demographics']['social_class'],
+            puid4: wmclusters,
+            puid5: audiences
+        },
+           onRender: function() { console.log('otag_rendered'); },
+           onError: function(error) { console.log('otag_error'); },
+           onStub: function() { console.log('otag_stub'); }
+});
+});
+</script>

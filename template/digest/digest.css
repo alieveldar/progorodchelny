@@ -1,0 +1,49 @@
+@font-face { font-family:opensans; src: local('Open Sans'), local('OpenSans'), url('opensans.woff2') format('woff2'), url('opensans.woff') format('woff'), url('opensans.ttf') format('truetype'); }
+
+body { font:14px/22px 'opensans'; color:#444; background:#FFF; }
+a:link,a:active,a:visited { color:#3a4267; text-decoration:underline; } a:hover { color:#AAA; text-decoration:none; }
+clear { clear:both; display:block; height:10px; } p { margin:1px 0 10px 0; padding:1px 0; }
+
+#InnerCont2 { margin:0px; background:url(shite.jpg) top center no-repeat; }
+#MainContentBox { width:980px; padding:0px 10px 0 10px; background:#FFF; }
+hr { border:none; border-bottom:1px dashed #CCC; height:0px; color:#FFF; margin:15px 0; }
+
+
+H1 { font:32px/38px 'opensans'; margin-bottom:20px; } H2 { font:28px/36px 'opensans'; }
+
+
+
+.elogo { text-align:center; } .bot { overflow:hidden; margin-bottom:20px; }
+.b3t { text-align:center; font-size:17px; } .btext { font-size:12px; line-height:16px; color:#555; margin-bottom:15px; } .lbtext { float:left; } .rbtext { float:right; }
+
+#MenuDiv-newmenu { text-align:center; } ul#MenuUl-newmenu li { margin:0; padding:0; display:inline !important; float:none !important; list-style:none; height:20px;}
+ul#MenuUl-newmenu { padding:0; display:inline; list-style:none; height:20px; line-height:20px; font-size:13px; text-align:center; margin-bottom:20px; }
+ul#MenuUl-newmenu a { padding:0 18px 0 0; margin:0; display:inline !important; color:#AAA; text-decoration:none !important; }
+ul#MenuUl-newmenu a:hover, ul#MenuUl-newmenu li:hover a, ul#MenuUl-newmenu li.iehover a { color:#000; text-decoration:none; background:none !important; }
+ul#MenuUl-newmenu li:hover li a, ul#MenuUl-newmenu li.iehover li a { float:none; color:#000; text-shadow:none; background:none !important; }
+ul#MenuUl-newmenu li:hover li a:hover, ul#MenuUl-newmenu li:hover li:hover a, ul#MenuUl-newmenu li.iehover li a:hover, ul#MenuUl-newmenu li.iehover li.iehover a { color:#000; }
+ul#MenuUl-newmenu ul ul { display:none; position:absolute; top:0; left:200px; } ul#MenuUl-newmenu li:hover ul ul, ul#MenuUl-newmenu li.iehover ul ul { display:none; }
+ul#MenuUl-newmenu li:hover ul, ul#MenuUl-newmenu ul li:hover ul, ul#MenuUl-newmenu li.iehover ul, ul#MenuUl-newmenu ul li.iehover ul { display:block; } ul#MenuUl-newmenu li:last-child a { padding-right:0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

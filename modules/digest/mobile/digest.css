@@ -1,0 +1,22 @@
+a { text-decoration:none !important; }
+H1.cap { text-align:center; font-size:42px; line-height:52px; font-weight:bold; } .closeban { display:none !important; }
+
+.category { margin-bottom:20px; font-size:20px; line-height:26px; width:100%; }
+.category img { width:60px; height:60px; border:none; margin-right:10px; display:inline-block; float:left; }
+.mcat { display:block; overflow:hidden; margin-bottom:10px; font-size:14px; line-height:18px; font-weight:bold; width:100%; }
+.mcat img { float:left; width:18px; height:18px; border:none; margin-right:7px; } 
+
+.pgbg { background-size:cover; position:relative; z-index:10; text-align:center; overflow:hidden; height:150px; }
+.pgbg h1 { display:block; padding:15px 30px; margin:0; color:#FFF; text-align:center; z-index:100; text-shadow:0 0 10px rgba(0,0,0,0.85); }
+.pgbg h1 { display:inline-block; text-align:center; font-size:22px; line-height:30px; font-weight:bold; text-transform:uppercase; }
+.hr2 { text-align:center; font-size:15px; line-height:17px; font-weight:bold; }
+.pgbg hr { border-bottom:2px solid #FFF !important; }
+
+
+.box { border:1px solid #CCC; overflow:hidden; margin-bottom:20px; font-size:13px; line-height:20px; }
+.box:nth-of-type(3n+3) { margin-right:0px; } .mpic { width:100%; height:auto; } .texts { padding:0 10px; margin-top:10px; } .box:hover { box-shadow:0 0 10px #CCC; }
+
+.box ul { padding:0; margin:5px 0px 3px 15px; }  .box li { padding:0; margin:0; }
+.textu { padding:10px; margin-top:10px; border-top:1px dashed #DDD; color:#AAA; font-size:11px; line-height:15px;  }
+.pil { padding:10px; border-bottom:1px dashed #DDD; color:#01628f !important; font-weight:bold; overflow:hidden; background:#F7F7F7; }
+.pil a { color:#01628f !important; } .pil img { width:20px; height:20px; float:left; margin-right:8px;  }

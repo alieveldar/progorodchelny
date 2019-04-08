@@ -1,0 +1,62 @@
+body { color:#333; background:#f7f7f7; } input:hover, select:hover, textarea:hover { border:1px solid #09C; } a:link,a:active,a:visited { color:#000; } a:hover { color:#d88110; }
+
+H1, H2, H3, H4, H5, H6 { font-weight:normal; font-family:Tahoma; padding:0; } 
+H1 { color:#d88110; margin:0; font-size:30px; line-height:32px; letter-spacing:-1px; margin-bottom:10px;  } 
+H2 { color:#d88110; font-size:24px; line-height:30px; margin:5px 0;   } H2 a:link, H2 a:active, H2 a:visited { color:#d88110; text-decoration:none; line-height:22px; } H2 a:hover { color:#777; text-decoration:underline; }
+H3 { color:#777; font-size:19px;  line-height:22px; margin:5px 0 0 0; } H3 a:link, H3 a:active, H3 a:visited { color:#3c8102; text-decoration:none; } H3 a:hover { color:#ff5400; }
+H4 { color:#999; margin:3px 0; font-size:16px; line-height:18px; } H4 a:link, H4 a:active, H4 a:visited { color:#FFF; text-decoration:none; } H4 a:hover { color:#3c8102; }
+H5 { color:#777; margin:0; font-size:18px; line-height:18px; } H5 a:link, H5 a:active, H5 a:visited { color:#060; text-decoration:none; font-size:18px; } H5 a:hover { color:#F60; font-size:18px; }
+
+input, select, textarea { -webkit-transition-property:all; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease; border:#CCC 1px solid; } input:hover, select:hover, textarea:hover { border:1px solid #d88110; }
+
+#Header { background:url(businessbg.jpg) center center repeat-x; }
+#LeftContent { width:990px; } .Tags { display: none; }
+
+/* Локальные настройки меню, остальные в стандарт.цсс*/
+#Menu { background:#ffe7af; } ul#MenuUl-mainmenu a:hover, ul#MenuUl-mainmenu li:hover a, ul#MenuUl-mainmenu li.iehover a { background:#d88110; color:#FFF; } ul#MenuUl-mainmenu a { color:#d88110; }
+ul#MenuUl-mainmenu a:hover, ul#MenuUl-mainmenu li:hover a, ul#MenuUl-mainmenu li.iehover a, ul#MenuUl-mainmenu li:hover li a, ul#MenuUl-mainmenu li.iehover li a { background:#d88110; color:#FFF; }
+ul#MenuUl-mainmenu li:hover li a:hover, ul#MenuUl-mainmenu li:hover li:hover a, ul#MenuUl-mainmenu li.iehover li a:hover, ul#MenuUl-mainmenu li.iehover li.iehover a { background:#be6e06; color:#FFF; } .liclose { background:#d88110; }
+
+#MenuUl-maintags a:link, #MenuUl-maintags a:visited, #MenuUl-maintags a:active { color:#888; } #MenuUl-maintags a:hover { color:#d88110; }
+.NewsBlockLine, .scrollbarY .thumb { background:#d88110; }
+
+/* Дизайн */
+#UserAuth-Enter { background-color:#d88110; color:#FFF; } #UserAuth-Enter:hover { background-color:#ffe7af; color:#d88110; } #UserAuth-AddNews { color:#d88110; }
+.UsersLineLogined a:hover { background:#d88110; color:#FFF;}  .UsersLineLogined a:hover i { color:#FFF;}
+
+#Bottom { background:#d88110; } .censor { color:#d88110; background:#ffe7af; } .censor b { color:#d88110 !important; } .OpenName { color:#d88110; }.UserLogin a:hover { background:#d88110; border:1px solid #FFF; color:#FFF; } .SaveButton:hover, .votingButton a:hover, .pager a.active, .pager a:hover, .qq-upload-button-hover { background:#d88110 !important;  color:#FFF; }
+
+.LentaItem a { color:#d88110; } .LentaItem a:hover { color:#888; } .NewsLentaBlock .CatAndAuth a{ text-decoration:underline; color:#666; } .NewsLentaBlock .CatAndAuth a:hover{ color:#d88110; text-decoration:none; }
+
+.MainTVSpec { height:400px; overflow:hidden; float:left; font-size:11px; width:730px; } .MainTVBanner { float:right; width:240px; height:400px; overflow:hidden; background:#DEDEDE; }
+
+#MainTVPic H1 { font-size:24px; line-height:24px; padding:0; margin:0; } #MainTVPic H1 a:link, #MainTVPic H1 a:visited, #MainTVPic H1 a:active { color:#FFF !important; }
+#MainTVPic { width:500px; height:300px; position:relative; float:left;  } #MainTVPic img { width:500px; height:300px; border-radius:5px; border:none; }
+#MainTVPic div { position:absolute; bottom:0; left:0; width:480px; padding:10px; background:rgba(0,0,0,0.5); border-bottom-right-radius:5px; border-bottom-left-radius:5px; }
+
+.MainTVList { float:right; width:220px; overflow:hidden; } .CB { clear:both; line-height:1px; font-size:1px; height:6px; margin-bottom:5px; border-bottom:1px dotted #CCC; }
+.MainTVListItem1 { width:220px; height:50px; overflow:hidden; line-height:13px; font-weight:bold; } .MainTVListItem1 a { color:#777; } .MainTVListItem1 a:hover {color:#d88110; text-decoration:underline;}
+.MainTVListItem1 img { border-radius:5px; border:none; height:46px; width:46px; padding:2px; float:left; margin-right:7px; } 
+.MainTVListItem2 { width:220px; height:50px; overflow:hidden; line-height:13px; font-weight:bold; } .MainTVListItem2 a { color:#333; } .MainTVListItem2 a:hover {color:#d88110; text-decoration:underline; }
+.MainTVListItem2 img { border-radius:5px; border:none; height:50px; width:50px; float:left; margin-right:7px; }
+
+.MainSpecBlock { float:left; height:70px; width:234px; overflow:hidden; line-height:14px; font-size:12px; border-radius:5px; } .MainSpecBlock b { padding-top:10px; display:block;}
+.MainSpecBlock img { width:70px; height:70px; border-radius:5px; margin-right:7px; border:none; float:left; } .MainSpecBlock a { color:#333; } .MainSpecBlock a:hover {color:#d88110; text-decoration:underline; }
+
+.MainRazdelName .bg { background:#d88110; } .MainRazdelName { border-bottom:1px solid #AAA; font-size:20px; line-height:30px; color:#777; font-weight:bold; margin-bottom:10px; }
+.MainRazdelName a { color:#777; } .MainRazdelName a:hover { color:#d88110; text-decoration: underline; }
+.MainRazdelName div { float:right; width:8px; height:8px; margin:10px 0 10px 5px; border-radius:8px; border:3px solid #CCC; background:#FFF; cursor: pointer;  -webkit-transition-property:all; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease; } .MainRazdelName div:hover { border:3px solid #d88110; }
+
+.MainRedaktorItem { width:230px; height:260px; float:left; overflow:hidden; position:relative; } .MainRedaktorItem img { width:230px; height:190px; border:none; border-radius:5px; margin-bottom:10px; }
+.MainRedaktorAuth { width:230px; height:50px; font-size:12px; line-height:12px;  } .MainRedaktorAuth img { width:50px; height:50px; border:none; border-radius:5px; margin-right:7px; float:left; }
+.MainRedaktorAuth b{ display:block; padding-top:2px; } .MainRedaktorAuth b a{ text-decoration:underline; color:#d88110; } .MainRedaktorAuth b a:hover{ text-decoration:none; color:#666; }
+
+.NewItem { line-height:16px; font-size:13px; font-weight: normal !important; margin-top:-5px;} 
+
+.MainRedaktorItem2 { width:230px; height:190px; float:left; overflow:hidden; position:relative; padding-top:10px; border-top:3px solid #CCC;-webkit-transition-property:all; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease;  }
+.MainRedaktorItem2:hover { border-top:3px solid #d88110; } .MainRedaktorItem2 img { width:230px; height:190px; border:none; border-radius:5px; margin-bottom:10px; }
+.MainRedaktorItem2 .CapItem { line-height:14px; color:#FFF; position:absolute; bottom:0; left:0; width:210px; padding:10px; background:rgba(0,0,0,0.5); border-bottom-right-radius:5px; border-bottom-left-radius:5px; } .MainRedaktorItem2 .CapItem a { font-size:13px; color:#FFF; font-weight:bold; } .MainRedaktorItem2 .CapItem a:hover { text-decoration:underline; } 
+
+.MainRedaktorItem3 { width:230px; height:190px; float:left; overflow:hidden; position:relative; } .MainRedaktorItem3 img { width:230px; height:190px; border:none; border-radius:5px; margin-bottom:10px; }
+.MainRedaktorItem3 .CapItem { line-height:14px; color:#FFF; position:absolute; bottom:0; left:0; width:210px; padding:10px; background:rgba(0,0,0,0.5); border-bottom-right-radius:5px; border-bottom-left-radius:5px; } .MainRedaktorItem3 .CapItem a { font-size:13px; color:#FFF; font-weight:bold; } .MainRedaktorItem3 .CapItem a:hover { text-decoration:underline; } 
+ 

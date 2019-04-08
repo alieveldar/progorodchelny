@@ -1,0 +1,17 @@
+body { font-family:'Open Sans' !important; } .C { line-height:1px; clear:both; height:1px; overflow:hidden; }
+.mys { width:990px; margin:0 auto; overflow:hidden; font-weight:300; }
+.mys .head { height:600px; overflow:hidden; text-align:center; width:990px; background:url(head.jpg) center center no-repeat; position:relative; z-index:1; }
+.mys .text { width:650px; margin:320px auto 40px auto; font-weight:300; color:#FFF; font-size:24px; line-height:30px; }
+.mys .desc { margin:40px 0; color:#000; font-size:22px; line-height:32px; text-align:center;  }
+.mys .desc i { display:block; font-size:47px; line-height:57px; margin:10px 0 15px 0; color:#000 !important; font-style:normal !important; } .mys .desc a {  color:#000 !important; }
+.mys #info { width:570px; height:26px; position:absolute; top:540px; left:50%; margin-left:-285px; z-index:10000; overflow:hidden; }
+.mys #info span { width:25%; display:inline-block; text-align:center; color:#FFF; font-size:17px; letter-spacing:-1px; }
+.mys .pics { background:#4990c1; color:#FFF; text-align:center; padding:30px 0; overflow:hidden; } .mys .pics a { color:#FFF !important; }
+.Icon { float:left; width:25%; overflow:hidden; text-align:center; margin:20px 0; font-size:13px; line-height:21px; } .Icon b { font-size:17px; }
+#More { margin-top:20px; font-size:24px; line-height:28px; font-weight:400; text-align:center; } #More img { width:176px; height:16px; margin:6px auto; border:none; } 
+.avatars .Icon { text-align:center; font-size:14px; } .avatars img { width:85%; height:85%; border:none; border-radius:200px; border:6px solid #FFF; }
+
+#works { margin:10px 0; overflow:hidden; } #works  .image { display:block; overflow:hidden; z-index:10; position: relative; float:left; } #works img { border:none; width:315px; height:315px; margin:5px; z-index:20; position: relative; }
+#works  .close { display:block; position: absolute; left:10px; top:10px; height: 20px; width: 30px; z-index: 1000; text-align: center; background:#F00; text-decoration: none; } 
+
+

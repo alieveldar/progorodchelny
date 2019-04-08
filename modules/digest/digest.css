@@ -1,0 +1,29 @@
+a { text-decoration:none !important; }
+H1.cap { text-align:center; font-size:42px; line-height:52px; font-weight:bold; } .closeban { display:none !important; }
+
+.category { float:left; overflow:hidden; margin-bottom:20px; font-size:24px; line-height:26px; width:485px; margin-right:5px; }
+.category img { width:90px; height:90px; border:none; margin-right:10px; display:inline-block; float:left; }
+.category span { width:375px; height:90px; border:none; display:table-cell; vertical-align:middle; }
+
+
+.mcat { width:25%; display:block; float:left; overflow:hidden; margin-bottom:25px; font-size:13px; line-height:10px; font-weight:bold; }
+.mcat img { float:left; width:36px; height:36px; border:none; margin-right:7px; } 
+
+.pgbg { background-size:cover; position:relative; z-index:10; text-align:center; overflow:hidden; height:300px; }
+.pgbg h1, .pgbg h2 { display:block; padding:20px 50px; margin:0; color:#FFF; text-align:center; z-index:100; text-shadow:0 0 10px rgba(0,0,0,0.85); }
+.pgbg h1 { display:inline-block; text-align:center; font-size:38px; line-height:44px; font-weight:bold; text-transform:uppercase; }
+.pgbg h2 { position:absolute; text-align:center; font-size:17px; line-height:24px; left:0px; bottom:0px; font-weight:bold; }
+.pgbg hr { border-bottom:2px solid #FFF !important; }
+
+.box { float:left; width:308px; margin-right:25px; border:1px solid #CCC; overflow:hidden; margin-bottom:20px; font-size:13px; line-height:20px; }
+.box:nth-of-type(3n+3) { margin-right:0px; } .mpic { width:100%; height:auto; }  .box:hover { box-shadow:0 0 10px #CCC; }
+.box ul { padding:0; margin:5px 0px 3px 15px; } .box li { padding:0; margin:0; }
+
+.textbox { height:430px; overflow:hidden; } .texts { padding:0 10px; margin-top:10px; }
+.textu { padding:10px; margin-top:10px; border-top:1px dashed #DDD; color:#AAA; font-size:11px; line-height:15px;  }
+
+.pil { padding:10px; border-bottom:1px dashed #DDD; height:20px; white-space:nowrap; color:#01628f !important; font-weight:bold; overflow:hidden; background:#F7F7F7; }
+.pil a { color:#01628f !important; } .pil img { width:20px; height:20px; float:left; margin-right:8px;  }
+
+.pil2 { font-size:22px; text-align:center; padding:15px; border-bottom:1px dashed #DDD; height:20px; white-space:nowrap; color:#01628f !important; font-weight:bold; overflow:hidden; background:#F7F7F7; }
+.pil2 a { color:#01628f !important; } .pil img { width:20px; height:20px; float:left; margin-right:8px;  }

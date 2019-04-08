@@ -1,0 +1,1 @@
+function HidePic(id) { JsHttpRequest.query('/modules/page_mods/belyiangel-dJSReq.php',{'id':id}, function(result,errors){ if(result){ $(".div"+id).fadeOut(); }},true); }

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /404
+Host: progorodchelny.ru
+Sitemap: http://progorodchelny.ru/sitemap.xml
+User-agent: Yandex
+Disallow: /newsv2/71262.html

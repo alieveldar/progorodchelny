@@ -1,0 +1,26 @@
+Options All -Indexes
+DirectoryIndex index.php
+ErrorDocument 404 /
+ErrorDocument 403 /
+ErrorDocument 401 /
+AddDefaultCharset utf-8
+php_value default_charset utf-8
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.progorodchelny\.ru$ [NC]
+RewriteRule ^(.*)$ http://progorodchelny.ru/$1 [R=301,L]
+
+# Redirect for mobile devices
+#RewriteCond %{HTTP_USER_AGENT} "android|blackberry|googlebot-mobile|iemobile|ipad|iphone|ipod|opera mobile|palmos|webos" [NC]
+#RewriteCond %{HTTP_HOST} !^m\. [NC]
+#RewriteRule ^(.*)$ http://m.progorodchelny.ru/$1 [L,R=302]
+
+php_flag register_globals on
+php_flag magic_quotes_gpc off
+php_flag magic_quotes_runtime off
+
+php_value session.cookie_domain ".progorodchelny.ru"
+php_value post_max_size 200M
+php_value session.gc_maxlifetime 172800
+php_value session.cookie_lifetime 172800
+php_value session.gc_probability 1

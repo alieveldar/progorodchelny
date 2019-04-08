@@ -1,0 +1,3 @@
+function RemoveField(id){ $("#card"+id).css("background","#F00"); JsHttpRequest.query('modules/lenta/cards-del-JSReq.php',{'id':id}, function(result,errors){ if(result){/**/ fremove(id); /**/}},true);}
+function fremove(id) { $("#card"+id).slideUp(333); setTimeout(function() { $("#card"+id).remove(); },333); }
+function AddField(lenta, pid){ JsHttpRequest.query('modules/lenta/cards-add-JSReq.php',{'pid':pid,'lenta':lenta}, function(result,errors){ if(result){/**/ $("#Cards").append(result["content"]); /**/}},true);}

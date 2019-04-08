@@ -1,0 +1,11 @@
+.AdvertsRub {padding: 0; margin: 0; list-style: none;}
+.AdvertsRub li {padding: 1px 0;}
+.AdvertsSub {padding: 0 0 0 20px; margin: 0; list-style: none; display: none;}
+.RoundText { border:1px solid #CCC; padding:6px; border-radius:5px; margin-bottom:10px; clear:both;}
+.BrowseButton { overflow: hidden; border: 1px solid #CCCCCC; float: left; border-radius: 6px 6px 6px 6px; cursor: pointer; font-size: 13px; line-height:35px; font-weight: bold; height: 35px; width: 190px; background-color: buttonface; text-align: center; position:relative;}
+.BrowseButton:hover {background-color: #4887b7; color: #fff;}
+.BrowseButton input { border: medium none; cursor: pointer; font-size: 199px; position:absolute; top:0; left:0; opacity: 0; padding: 0; }
+#FileName {float: left; margin-left: 10px; line-height: 35px;}
+
+.ParentAdv { border-left:3px solid #069; font-size:18px; margin-bottom:8px; border-radius:5px; padding:9px !important; background:#e4eef6; font-weight:bold;  } .ParentAdv a { padding:10px; } 
+.ParentAdv ul { background: #FFF; padding:15px; border-radius:5px; font-size:14px; line-height:24px !important; margin-top:10px; font-weight: normal; } .ParentAdv ul u { font-weight:bold; } 

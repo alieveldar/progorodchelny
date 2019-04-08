@@ -1,0 +1,3 @@
+.testanswer { padding:10px; border-radius:7px; background:#E8E8E8; margin:5px 0; } .testanswering { cursor:pointer; }
+.testanswering:hover { color:#FFF; background:#0F3C66; } .testok { background:#1A5A07; color:#FFF; } .testno { background:#AC1A1D; color:#FFF; }
+.answertext { display:none; padding:10px; border-radius:7px; } .anstextok { font-weight:bold; color:#035A00; } .anstextno { font-weight:bold; color:#C10003; }

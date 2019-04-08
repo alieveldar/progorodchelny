@@ -1,0 +1,6 @@
+.ExchangeTable2 table { width:100%; border-collapse:collapse; font-size:14px; } .ExchangeTable2 table td { border:1px solid #CCC; padding:12px; }  
+.ExchangeTable2 tr:nth-of-type(2n+3) { background:#F7F7F7; }
+.ExchangeTable2 tr:nth-of-type(1), .ExchangeTable2 tr:nth-of-type(2) { color:#FFF; background:#366faa !important; font-weight:bold; }
+.ExchangeTable2 .rate { text-align:center; } .ExchangeTable2 .time { text-align:center; white-space:nowrap; font-size:11px; color:rgba(158,158,158,1.00); }
+
+.ExchangeTable2 tr td:nth-of-type(1) { font-size:16px; } .ExchangeTable2 .open { font-weight:bold; background:rgba(234,246,255,1.00) !important; cursor:pointer; }

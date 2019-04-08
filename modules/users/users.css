@@ -1,0 +1,9 @@
+.RoundText { border:1px solid #CCC; padding:6px; border-radius:5px; margin-bottom:10px; clear:both; position: relative;}
+.RoundText2 { border:1px solid #CCC; padding:6px; border-radius:5px; margin-bottom:10px; clear:both;} 
+.RoundText2 table, .RoundText2 tr { width:100%; border-collapse:collapse; padding:0px; font-size:11px; line-height:14px; margin:0; border:none; }
+.RoundText2 td { border-collapse:collapse; padding:4px; border-bottom:1px dashed #CCC; }
+
+.TRLineC { font-weight:bold; background:#DDD; } .TRLineC td { height:35px; font-size:11px; font-family:Tahoma; } 
+.TRLine1 { background:#F0F2F4; } .VarName { font-size:11px; color:#888; line-height:14px; }
+.TRLineHR td { border:1px solid #FFF; } .TRLineB { background:#069; font-weight:bold; color:#fff; border-bottom:none !important; } .TRLineB td { height:28px; font-size:11px; border-bottom:none !important; border:1px solid #FFF;  } 
+.B1 { background:#dfffe4; } .B11 { background:#459e53; } .B2 { background:#fff1da; } .B22 { background:#ef7f1b; } .B3 { background:#daf0ff; } .B33 { background:#2d9ae4; }

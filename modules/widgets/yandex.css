@@ -1,0 +1,13 @@
+* { outline:none; margin:0; padding:0; background:transparent; }
+html, body { margin:0; padding:0; border:none; font-family:Verdana; font-size:11px; line-height:13px; color:#000; background:transparent; }
+a:link, a:active, a:visited {color:#37496D;} a:hover { color:#F00; text-decoration:none; }
+
+.C { clear:both; height:0; overflow:hidden; font-size:0px; line-height:0px; }
+.C10 { clear:both; height:10px; overflow:hidden; font-size:0px; line-height:0px; }
+.C5 { clear:both; height:5px; overflow:hidden; font-size:0px; line-height:0px; }
+
+#NewsLenta img { float:left; width:42px; height:42px; margin-right:7px; border-radius:4px; border:none; }
+#NewsLenta a { display:block; padding-bottom:5px; margin-bottom:4px; border-bottom:1px dotted #CCC; }
+#NewsLenta a.last { display:block; margin:0; padding:0; border:none; }
+#NewsLenta a br { clear:both; height:0; overflow:hidden; font-size:0px; line-height:0px; }
+#NewsLenta a img { border-radius:4px; }

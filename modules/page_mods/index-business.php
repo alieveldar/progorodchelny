@@ -1,0 +1,3 @@
+<?
+@header("location: /business/"); exit();
+?>

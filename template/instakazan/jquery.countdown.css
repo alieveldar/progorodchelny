@@ -1,0 +1,68 @@
+.countdownHolder{
+	width:600px;
+	margin:0 auto;
+	font: 80px/1.2 Oswald;
+	text-align:center;
+	letter-spacing:-50px;
+	font-weight:400;
+}
+
+.position{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 1em;
+}
+
+.digit{
+	position:absolute;
+	display:block;
+	width:1em;
+	text-align:center;
+	color:#fff;
+	letter-spacing:-1px;
+}
+
+.digit.static{
+	
+}
+
+/**
+ * Вы можете использовать данные классы для скрытия
+ * частей счетчика, которые не нужны.
+ */
+
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+	position:absolute;
+	width:10px;
+	height:10px;
+	background-color:#FFF;
+	border-radius:50%;
+	left:50%;
+	margin-left:-3px;
+	top:0.45em;
+
+	content:'';
+}
+
+.countDiv:after{
+	top:0.75em;
+}

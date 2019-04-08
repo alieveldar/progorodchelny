@@ -1,0 +1,13 @@
+.getInstaPics { overflow:hidden; } .getInstaPics a { width:31%; display:block; overflow:hidden; border:none; margin-right:3.5%; float:left; margin-bottom:3%; }
+.getInstaPics a:nth-of-type(3n+3) { margin-right:0; } .getInstaPics a:nth-last-child(-n+3) { margin-bottom:0px; } .getInstaPics img { border-radius:10px; border:none; width:100%; height:auto; }
+.InstaPic { width:100%; border:none; } .InstaPic td { text-align:center; } .InstaPic td:nth-of-type(1) { padding-right:10px; } .InstaPic td:nth-of-type(3) { padding-left:10px; }
+
+.PicAuthBox { width:100%; overflow:hidden; position:relative; z-index:1; font-size:12px; margin-bottom:20px; }
+.PicAuthBox img { max-width:100%; height:auto !important; border:none; position:relative; z-index:2; display:block; border-radius:10px; }
+
+.CatType, .CatTypelight, .CatTypedark { font:17px/30px Arial;  display: block; position:absolute; top:15px; width:100%; z-index:3; text-align:right; }
+.CatTypelight a { text-decoration:none; margin-right:10px; padding:2px 7px; text-transform:uppercase; }
+.CatType a, .CatTypelight a { color:#FFF; border-top:2px solid #FFF; border-bottom:2px solid #FFF; } .CatType a:hover, .CatTypelight a:hover { background:#FFF; color:#000; }
+
+.NavPics { width:35px; height:50px; border:none; -webkit-transition-property:all; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);  -moz-opacity:0.85;  -khtml-opacity:0.85; opacity:0.85; }
+.NavPics:hover { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);  -moz-opacity:1;  -khtml-opacity:1; opacity:1; }

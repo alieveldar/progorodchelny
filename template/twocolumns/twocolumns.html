@@ -1,0 +1,170 @@
+<div id="BoxUp" onClick="CloseBlank();"></div><div id="ToUp" onclick="DocToUp();">Наверх</div>
+<div id="InnerCont">
+	<div class="container">
+        <!-- баннер -->
+		<div class="header__banner">
+			<noindex>
+				<div class='banner hidden-mobile' id='Banner-2-1'></div>
+				<div class='banner hidden-desktop' id='Banner-35-1'></div>
+			</noindex>
+		</div>
+    </div>
+
+	<div class="header-holder">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <button id="openSidebarMenu" class="header__button-open"></button>
+
+                <div class="header__logo">
+                    <a href="/"><img class="header__logo-img" src="/template/standart/img/logo.png" alt="progorodchelny"></a>
+                </div>
+
+                $mainmenu
+
+                <div class="header__link-wrapper_border">
+                    <a class="header__link" href="/add/1">добавь новость и заработай 500 Р</a>
+                </div>
+                <!-- поиск -->
+                <a class="header__search" href="/search"></a>
+            </div>
+
+        </div>
+    </header>
+    </div>
+    $Progress
+    <main class="page">
+        <div class="container">
+            <div class="news-top-row">
+                <!-- большая новость -->
+                $TopContent
+            </div>
+
+            <!-- основные колонки новостей -->
+            <div class="news-columns">
+                <!-- левая боковая колонка -->
+                <div class="column-side">
+                    <h3 class="news-short-header">Новости</h3>
+                    $LeftContent
+                </div>
+
+                <!-- средняя колонка -->
+                <div class="column-mid" id="RedColumn" style="max-width:460px;">
+                    $Caption
+                    $Content
+                </div>
+
+                <!-- правая боковая колонка -->
+                <div class="column-side">
+                    $RightContent
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__sites">
+                    <h3 class="footer__sites-header">наши сайты:</h3>
+                    <a class="footer__sites-link" href="">мы в других городах</a>
+                    $ourcities
+                </div>
+                <hr class="footer__line">
+                $dopmenu
+                <p class="footer__copyrights"> $official </p>
+                <div class="footer__plugins"> $counters </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<div id="LeftCont"></div>
+<div id="RightCont"></div>
+
+<div class="banner-bottom">
+	<button class="banner-bottom__close"></button>
+	<noindex><div class='banner' id='Banner-3-1'></div></noindex>
+</div>
+
+<script src="/template/index/libs/fancybox/jquery.fancybox.js"></script>
+<script src="/template/index/libs/owl_carousel/owl.carousel.min.js"></script>
+<script src="/template/index/js/main.js?t=1015041018"></script>
+<script>
+    $(document).ready(function() {
+        /* запуск видео */
+        $('.fancybox').length && $('.fancybox').fancybox({
+            type: "iframe"
+        });
+
+        /* создание слайдера */
+        $('.owl-carousel').length && $('.owl-carousel').owlCarousel({
+            center: true,
+            loop: true,
+            items: 1,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ''
+        });
+    });
+</script>
+
+<!--MaxLab START-->
+<!--Лаборатория "MaxLab"-->
+<!--Сайт: Новости Казани и Татарстана-->
+<!--Категория: Республика Татарстан-->
+<!--Тип баннера: BottomLine-->
+<script type="text/javascript">
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+  if (typeof(afReferrer) == 'undefined') {
+    afReferrer = escape(document.referrer);
+  }
+} else {
+  afReferrer = '';
+}
+var addate = new Date();
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.maxlab.ru/233/prepareCode?p1=blfjv&amp;p2=eshi&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');
+// -->
+</script>
+<!--MaxLab END-->
+
+<script type="text/javascript">
+    document.write("<a href='//www.liveinternet.ru/click;ProKazan' "+
+        "target=_blank style='width:1px!important;height:1px!important;visibility:hidden!important;'"+
+        "><img src='//counter.yadro.ru/hit;ProKazan?t14.6;r"+
+        escape(document.referrer)+((typeof(screen)=="undefined")?"":
+            ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+            screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+        ";h"+escape(document.title.substring(0,150))+";"+Math.random()+
+        "' alt='' title='LiveInternet: показано число просмотров за 24"+
+        " часа, посетителей за 24 часа и за сегодня' "+
+        "border='0' width='88' height='31'><\/a>")
+</script>
+
+<script type="text/javascript">
+    document.write("<a href='//www.liveinternet.ru/click;progorod' "+
+        "target=_blank style='width:0!important;height:0!important;visibility:hidden!important;'"+
+        "><img src='//counter.yadro.ru/hit;progorod?t14.6;r"+
+        escape(document.referrer)+((typeof(screen)=="undefined")?"":
+            ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+            screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+        ";h"+escape(document.title.substring(0,150))+";"+Math.random()+
+        "' alt='' title='LiveInternet: показано число просмотров за 24"+
+        " часа, посетителей за 24 часа и за сегодня' "+
+        "border='0' width='88' height='31'><\/a>")
+</script>
+
+<script type="text/javascript"> 
+    document.write("<a href='//www.liveinternet.ru/stat/progorod' "+
+        "target=_blank style='width:0!important;height:0!important;visibility:hidden!important;'"+
+        "><img src='//counter.yadro.ru/hit;progorod?t14.6;r"+ 
+        escape(document.referrer)+((typeof(screen)=="undefined")?"": 
+            ";s"+screen.width+""+screen.height+""+(screen.colorDepth? 
+            screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+        ";h"+escape(document.title.substring(0,150))+";"+Math.random()+ 
+        "' alt='' title='LiveInternet: показано число просмотров за 24"+ 
+        " часа, посетителей за 24 часа и за сегодня' "+ 
+        "border='0' width='88' height='31'><\/a>") 
+</script>

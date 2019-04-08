@@ -1,0 +1,79 @@
+<div id="BoxUp" onclick="CloseBlank();"></div><div id="ToUp" onclick="DocToUp();">Наверх</div>
+<div id="AllContent">
+<div id="TopLine"><div class="content">
+	<div class="auth">$UserAuth</div>
+	<a href="http://m.$mdomain/" class="MobileVer">Мобильная версия</a>
+	<div class="search">
+    	<form action='http://$mdomain/modules/SubmitForm.php?bp=search' enctype='multipart/form-data' method='post'>
+        <input class="input2" name="searchbutton" id="searchbutton" type="image" src="/template/standart/search.png" title="Искать!" />
+        <input class="input1" name="searchword" id="searchword" placeholder="поиск по сайту" type="text" />
+        </form>    
+	</div>
+    <div class="censor">$censor</div>
+    <div class="C"></div>
+</div></div>
+<!-- END topline -->
+<div class="C"></div>
+<div id="Header">
+	<div class="C15"></div>
+	<div class="content">
+	<div class="logo"><a href="http://$mdomain/live"><img src="/template/forum/logo.png" title='$sitename' alt='$sitename'></a></div>
+    <div class="banner" id="Banner-2-1"></div>
+    <div class="C"></div>
+</div>
+<div class="C15"></div>
+</div>
+<!-- END header -->
+<div class="C"></div>
+<div id="Menu">$mainmenu</div>
+<!-- END menu -->
+
+<div id="InnerCont">
+<div id="MainContent">
+	<div class="C10"></div>
+	<div id="Tags">$maintags</div>
+	<div id="SocialGroups">$SocialGroups</div>
+	<div class="C15"></div>
+	<!-- END tags -->
+	<div id="TopContent" style="margin-top:-10px;">$TopContent</div>
+	<!-- END Topcontent -->
+	<div id="LeftContent">$Caption$Content</div>
+	<!-- END leftcontent -->
+	<div id="RightContent">$RightContent</div>
+	<!-- END rightcontent -->
+	<div class="C15"></div>
+	<div id="BottomContent" style="display: none;">
+		<div class='banner' id='Banner-8-1'></div>
+		<div class="C15"></div>
+		<div style="float:left; width:500px;"><div id="vk_groups"></div><script>VK.Widgets.Group("vk_groups", {mode: 0, width: "500", height: "216"}, 27126289);</script></div>
+		<div style="float:right; width:470px;"><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) { return; }js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+		<div class="fb-like-box" data-header="true" data-width="470" data-height="220" data-href="http://www.facebook.com/pages/ProKazanru/306141926106117" data-show-faces="true" data-stream="false" style="background:#fff;"></div></div>
+	</div>
+	<!-- END bottomcontent -->
+</div>
+<!-- END maincontent -->
+<div id="LeftCont"></div>
+<div id="RightCont"></div>
+</div>
+
+<div class="C15"></div>
+<div id="Bottom"><div class="content">
+	$dopmenu
+	<div class="C15"></div>
+    <div class="CopyText">$copyright</div>
+    <div class="EditText"><noindex>$editors<div class="C10"></div>$counters</noindex><div class="C"></div></div>    
+<div class="C"></div>
+</div></div>
+<!-- END bottom -->
+
+<div class="C"></div>
+<div id="Cities"><div class="content">
+	$ourcities
+    <div class="C"></div>
+</div></div>
+<!-- END sites -->
+<div id="Sape"><div class="content">
+	$sape
+    <div class="C"></div>
+</div></div>
+</div>
